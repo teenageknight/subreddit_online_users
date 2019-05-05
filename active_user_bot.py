@@ -104,7 +104,7 @@ def plotData(subreddit_name):
 if __name__ == '__main__':
 
     # Change the input to this class with your information from the Reddit API (See README.md for instructions)
-    bot = OnlineUserBot('SUBREDDIT_NAME', 10, 60, 'CLIENT_ID','CLIENT_SECRET','PASSWORD','USER_AGENT','USERNAME')
+    bot = OnlineUserBot('SUBREDDIT_NAME', INTERVAL, TOTAL_TIME, 'CLIENT_ID','CLIENT_SECRET','PASSWORD','USER_AGENT','USERNAME')
 
     bot.activateBot()
     plotData('SUBREDDIT_NAME')
